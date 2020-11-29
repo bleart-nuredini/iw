@@ -1,0 +1,105 @@
+body {
+    margin: 0 0;
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6) ), url('../images/bg-img2.jpg');
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+/* NAVIGATION BAR */
+.nav-links { 
+    display: flex;
+    list-style: none;
+  color: #f8f7f7;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 9px 15px;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+  margin-left: 70vw;
+}
+
+.nav-links li {
+    padding: 9px 15px;
+}
+
+.drop-menu {
+    position: absolute;
+    list-style: none;
+    line-height: 45px;
+    top: 85px;
+    visibility: hidden;
+}
+
+.nav-links li:hover .drop-menu {
+    visibility: visible;
+}
+
+.nav-links li:hover {
+  background: #8d8d8d;
+  border-radius: 10px;
+}
+
+/* MAIN CONTENT */
+main {
+    margin: 10vw 25vw;
+    color: white;
+}
+
+main h1 {
+    font-size: 250%;    
+}
+
+main p {
+	font-size: 120%;
+}
+
+/* FOOTER */
+footer {
+    display: flex;
+    padding: 10px;
+    border-top: 1px solid white;
+    background-color: black;
+}
+
+.footer-contact {
+    color: white;
+    margin-left: 10vw;
+}
+
+#footer-name {
+    font-family: Trebuchet;
+}
+
+.footer-button {
+    color: black;
+    background-color: #D0A98F; 
+    border-radius: 100px;
+    height: 35px;
+    padding: 0.5em 1.3em;
+}
+
+.footer-nav ul {
+    display: flex;
+    list-style: none;
+    margin-top: 0;
+    color: wheat;
+}
+
+.footer-item {
+    margin-left: 80px;
+}
+
+.inner-ul-item {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+}
+
+footer a:hover {
+    color: #F45B69;
+}
