@@ -1,86 +1,76 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/style.css"
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-    
-</head>
-<style>
-  body{
-    background-image: url(images/bg-img1.png);
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-  }
-</style>
+    <link rel="stylesheet" href="styles/style.css"/>
+    <link src="https://kit.fontawesome.com/a076d05399.js"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+   </head>
 <body>
-  <nav>
-    <div class="wrapper">
-      <div class="logo"><a href="#"></a></div>
-      <input type="radio" name="slider" id="menu-btn">
-      <input type="radio" name="slider" id="close-btn">
-      <ul class="nav-links">
-        <label for="close-btn" class="btn close-btn"><i class="fas fa-times"></i></label>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li>
-          <a href="#" class="desktop-item">Dropdown </a>
-          <input type="checkbox" id="showDrop">
-          <label for="showDrop" class="mobile-item">Dropdown </label>
-          <ul class="drop-menu">
-            <li><a href="#">Drop menu 1</a></li>
-            <li><a href="#">Drop menu 2</a></li>
-            <li><a href="#">Drop menu 3</a></li>
-            <li><a href="#">Drop menu 4</a></li>
-          </ul>
-        </li>
-        <li>
-          <a href="#" class="desktop-item">Menu</a>
-          <input type="checkbox" id="showMega">
-          <label for="showMega" class="mobile-item">Menu</label>
-          <div class="mega-box">
-            <div class="content">
-              <div class="row">
-              </div>
-              <div class="row">
-                <header> Services</header>
-                <ul class="mega-links">
-                  <li><a href="#">Services</a></li>
-                  <li><a href="#">Services</a></li>
-                  <li><a href="#">Services</a></li>
-                  <li><a href="#">Services</a></li>
-                </ul>
-              </div>
-              <div class="row">
-                <header> Services</header>
-                <ul class="mega-links">
-                  <li><a href="#">Services</a></li>
-                  <li><a href="#">Services</a></li>
-                  <li><a href="#">Services</a></li>
-                  <li><a href="#">Services</a></li>
-                </ul>
-              </div>
-              <div class="row">
-                <header> services</header>
-                <ul class="1mega-links">
-                  <li><a href="#">Services</a></li>
-                  <li><a href="#">Services</a></li>
-                  <li><a href="#">Services</a></li>
-                  <li><a href="#">Services</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </li>
-  </nav>
+    <!-- Navigation Bar -->
+    <nav>
+        <ul class="nav-bar">
+            <li><a href="index.html">home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="music.html">Music</a></li>
+            <li><a href="#">Menu</a></li>
+        </ul>
+    </nav>
 
-  <div class="body-text">
-    <div class="title">Kings Of Leon</div>
-    <div class="sub-title">Get To Know The Music</div>
-  </div>
+    <!-- Main title -->
+    <div class="body-text">
+      <div class="title">Kings Of Leon</div>
+      <div class="sub-title">Get To Know The Music</div>
+    </div>
+  
+    <!-- Social Media Icons --> 
+    <div class="social-menu">
+      <ul>
+        <li><a href="https://www.facebook.com/KingsOfLeon/" target="_blank"><i class="fa fa-facebook-f"></i></a></li>
+        <li><a href="https://twitter.com/kingsofleon?lang=en" target="_blank"><i class="fa fa-twitter"></i></a></li>
+        <li><a href="https://www.instagram.com/kingsofleon/?hl=en" target="_blank"><i class="fa fa-instagram"></i></a></li>
+        <li><a href="https://www.youtube.com/user/kingsofleon" target="_blank"><i class="fa fa-youtube"></i></a></li>
+      </ul>
+    </div>
+
+    <!-- Remove this to enable footer 
+    <footer>
+        <div class="footer-contact">
+            <h1 id="footer-name">Kings of Leon</h1>
+            <h2>Contact</h2>
+            <address>3123-233-32331</address><br>
+            <a class="footer-button" href="mailto:kingsofleon@gmail.com">Email</a>
+        </div>
+        <div class="footer-nav">
+            <ul>
+                <li class="footer-item">
+                    <h2>Media</h2>
+                    <ul class="inner-ul-item">
+                        <li><a href="https://www.facebook.com/KingsOfLeon/">Facebook</a></li>
+                        <li><a href="https://www.instagram.com/kingsofleon/?hl=en">Instagram</a></li>
+                        <li><a href="https://twitter.com/kingsofleon?lang=en">Twitter</a></li>
+                    </ul>
+                </li>
+                <li class="footer-item">
+                    <h2>Concerts</h2>
+                    <ul class="inner-ul-item">
+                        <li><a href="#">USA</a></li>
+                        <li><a href="#">Europe</a></li>
+                        <li><a href="#">Australia</a></li>
+                    </ul>
+                </li>
+                <li class="footer-item">
+                    <h2>Legal</h2>
+                    <ul class="inner-ul-item">
+                        <li><a href="#">Terms of use</a></li>
+                        <li><a href="#">Privacy</a></li>
+                        <li><a href="#">Sitemap</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    -->
 </body>
 </html>
