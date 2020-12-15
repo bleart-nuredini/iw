@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <title>Kings of Leon - Register</title>
+  <link rel="stylesheet" type="text/css" href="styles/register-style.css">
+  <script defer src="js/register-page.js"></script>
+</head>
+<body>
+  <main id="main-container">
+    <a href="index.html"><img src="images/home-logo.png" width="50px"></img></a>
+    <h1 id="register-header">Register</h1>
+
+    <div id="register-error-msg-container">
+      <p id="register-error-msg">Sorry, you entered an invalid username or passowrd.</p>
+    </div>
+
+    <form id="register-form">
+      <input type="text" name="username" id="username-fld" class="register-fld" placeholder="username">
+      <input type="email" name="email" id="email-fld" class="register-fld" placeholder="e-mail address">
+      <input type="password" name="password" id="password-fld" class="register-fld" placeholder="password">
+      <input type="submit" value="register" id="form-submit">
+    </form>
+  </main>
+</body>
+</html>
