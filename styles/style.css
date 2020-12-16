@@ -11,7 +11,7 @@ body{
 
 
 /* Body Text */
-.body-text{
+.body-text {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -21,7 +21,8 @@ body{
   padding: 0 30px;
   color: #f3ecec;
 }
-.body-text div{
+
+.body-text div {
   font-size: 80px;
   font-weight: 600;
   color: #fcfcfc;
