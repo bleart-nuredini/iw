@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Testing the Scroller</title>
+    <link rel='stylesheet' type='text/css' href='styles/scroller-style.css'>
+  </head>
+  <body>
+
+    <!-- Navigation Bar -->
+    <nav>
+      <ul class="nav-bar">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="music.html">Music</a></li>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="register.html">Register</a></li>
+        <li><a href="scroller.html">Scroller</a></li>
+      </ul>
+    </nav>
+
+    <div class="main">
+      <div class="album-description">
+        <div class="album-desc-item visible">
+          <h2 class="album-title">Youth & Young Manhood</h2>
+          <p>The album was recorded between Sound City Studios in Van Nuys, Shangri-La Studios in Malibu and Ocean Way Nashville.[1] "Molly's Chambers," "Wasted Time" and "California Waiting" were all released as singles. "Spiral Staircase" featured on the PS3 game MotorStorm. "Red Morning Light" was also featured on a Ford Focus commercial, and as the opening song in FIFA 2004 by EA Sports. "Holy Roller Novocaine" was featured in the film Talladega Nights: The Ballad of Ricky Bobby as well as on the soundtrack.</p>
+        </div>
+        <div class="album-desc-item invisible">
+          <h2 class="album-title">Only by the Night</h2>
+          <p>Only by the Night (stylized as >ONLY_BY_THE_NIGHT>) is the fourth studio album by American alternative rock band Kings of Leon, released worldwide in September 2008. Writing for the band's fourth album commenced just days after the release of their third, Because of the Times. The album was recorded by producers Jacquire King and Angelo Petraglia in April 2008 at Nashville's Blackbird Studios.</p>
+        </div>
+        <div class="album-desc-item invisible">
+          <h2 class="album-title">Come Around Sundown</h2>
+          <p>Come Around Sundown is the fifth studio album by American rock band Kings of Leon, released in Ireland, Australia and Germany on October 15, 2010, followed by releases in the UK on October 18 and North America on October 19.[1][2] The official album covers and track list were revealed on September 3. The lead single, "Radioactive", along with its accompanying music video, premiered on September 8, on the Kings' official website. The following day, it received its official radio premiere on Australian radio.</p>
+        </div>
+      </div>
+
+      <div class="scroller">
+        <img id="back-btn" src="images/back-logo.png" width="50px">
+        <img id="next-btn" src="images/next-logo.png" width="50px">
+        <div class="scroller-item visible"> 
+          <img src="images/2003KingsOfLeon600-1.jpg">
+        </div>
+        <div class="scroller-item invisible">
+          <img src="images/Only_by_the_Night_Cover.jpg">
+        </div>
+        <div class="scroller-item invisible">
+          <img src="images/Comearoundsundown.jpg">
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="footer-contact">
+        <h1 id="footer-name">Kings of Leon</h1>
+        <h2>Contact</h2>
+        <address>3123-233-32331</address><br>
+        <a class="footer-button" href="mailto:kingsofleon@gmail.com">Email</a>
+      </div>
+      <div class="footer-nav">
+        <ul>
+          <li class="footer-item">
+            <h2>Media</h2>
+            <ul class="inner-ul-item">
+              <li><a href="https://www.facebook.com/KingsOfLeon/">Facebook</a></li>
+              <li><a href="https://www.instagram.com/kingsofleon/?hl=en">Instagram</a></li>
+              <li><a href="https://twitter.com/kingsofleon?lang=en">Twitter</a></li>
+            </ul>
+          </li>
+          <li class="footer-item">
+            <h2>Concerts</h2>
+            <ul class="inner-ul-item">
+              <li><a href="#">USA</a></li>
+              <li><a href="#">Europe</a></li>
+              <li><a href="#">Australia</a></li>
+            </ul>
+          </li>
+          <li class="footer-item">
+            <h2>Legal</h2>
+            <ul class="inner-ul-item">
+              <li><a href="#">Terms of use</a></li>
+              <li><a href="#">Privacy</a></li>
+              <li><a href="#">Sitemap</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Script for the scroller -->
+    <script>
+      var scrollerElements = document.getElementsByClassName('scroller-item');
+      var textElements = document.getElementsByClassName('album-desc-item');
+      var numOfImages = 3; // number of images to be displayed in the scroller
+      var i = 0;
+
+      // next button
+      document.getElementById('next-btn').addEventListener('click', function (event) {
+        makeInvisible(i);
+        if (++i % numOfImages === 0) i = 0;
+        makeVisible(i);
+      });
+      
+      // back button
+      document.getElementById('back-btn').addEventListener('click', function (event) {
+        makeInvisible(i);
+        if (--i < 0) i = numOfImages - 1;
+        makeVisible(i);
+      });
+
+      function makeInvisible(number) {
+        // change the image
+        scrollerElements[i].classList.remove('visible');
+        scrollerElements[i].classList.add('invisible');
+        // change the text
+        textElements[i].classList.remove('visible');
+        textElements[i].classList.add('invisible');
+      }
+
+      function makeVisible(i) {
+        scrollerElements[i].classList.remove('invisible');
+        scrollerElements[i].classList.add('visible');
+        textElements[i].classList.remove('invisible');
+        textElements[i].classList.add('visible');
+      }
+    </script>
+  </body>
+</html>
