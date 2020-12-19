@@ -10,6 +10,9 @@ loginButton.addEventListener("click", (e) => {
     if (username === "user" && password === "123") {
         alert("You have successfully logged in.");
         location.reload();
+    } else if (username === "") {
+        alert("The username cannot be empty.");
+        loginFrom.username.focus();
     } else {
         loginErrorMsg.style.opacity = 1;
     }

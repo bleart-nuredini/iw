@@ -1,13 +1,12 @@
 *{
-    margin: 0;
-    padding: 0;
-    font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  font-family: 'Cinzel', serif;
 }
 
 body{
     background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6) ), url('../images/bg-img1.png');
 }
-
 
 /* Body Text */
 .body-text {
@@ -30,24 +29,24 @@ body{
 
 /* Navigation Bar */ 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 45px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 45px 100px;
 }
 
 nav ul {
-    list-style: none;
+  list-style: none;
 }
 
 .nav-bar li {
-    display: inline-block;
-    padding: 0 15px;
-    text-transform: uppercase;
+  display: inline-block;
+  padding: 0 15px;
+  text-transform: uppercase;
 }
 
 .nav-bar li a {
@@ -166,7 +165,7 @@ footer a:hover {
     margin-left: 80px;
 }
 
-.inner-ul-item {
+.footer-ul {
     display: flex;
     flex-direction: column;
     padding-left: 0;

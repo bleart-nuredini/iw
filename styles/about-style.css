@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Cinzel', serif;
 }
 
 body {
@@ -10,50 +10,46 @@ body {
     background-color: black;
 }
 
+/* Navigation Bar */ 
 a {
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
 }
 
-/* Navigation Bar */ 
 nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 45px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 45px 100px;
 }
 
 nav ul {
-    list-style: none;
+  list-style: none;
 }
 
 .nav-bar li {
-    display: inline-block;
-    padding: 0 15px;
-    text-transform: uppercase;
+  display: inline-block;
+  padding: 0 15px;
+  text-transform: uppercase;
 }
 
 .nav-bar li a {
-    transition: all .3s ease 0s;
-    color: white;
+  transition: all .3s ease 0s;
+  color: white;
 }
 
 .nav-bar li a:hover {
-    color: #006C87;
+  color: #006C87;
 }
 
-.nav-bar li a {
-    font-size: 18px;
-}
-
-/* MAIN CONTENT */
+/* Main Content */
 main {
-    margin: 10vw 25vw;
-    color: white;
+  margin: 10vw 25vw;
+  color: white;
 }
 
 main h1 {
-    font-size: 250%;    
+  font-size: 250%;    
 }
 
 main p {
@@ -62,46 +58,42 @@ main p {
 
 /* Footer */
 footer {
-    display: flex;
-    padding: 10px;
-    border-top: 1px solid white;
-    background-color: black;
+  display: flex;
+  padding: 40px;
+  border-top: 1px solid white;
+  background-color: black;
 }
 
 .footer-contact {
-    color: white;
-    margin-left: 10vw;
-}
-
-#footer-name {
-    font-family: Trebuchet;
+  color: white;
+  margin-left: 10vw;
 }
 
 .footer-button {
-    color: black;
-    background-color: #D0A98F; 
-    border-radius: 100px;
-    height: 35px;
-    padding: 0.5em 1.3em;
+  color: black;
+  background-color: #D0A98F; 
+  border-radius: 100px;
+  height: 35px;
+  padding: 0.5em 1.3em;
 }
 
 .footer-nav ul {
-    display: flex;
-    list-style: none;
-    margin-top: 0;
-    color: wheat;
+  display: flex;
+  list-style: none;
+  margin-top: 0;
+  color: wheat;
 }
 
-.footer-item {
-    margin-left: 80px;
+.footer-nav-item {
+  margin-left: 80px;
 }
 
-.inner-ul-item {
-    display: flex;
-    flex-direction: column;
-    padding-left: 0;
+.footer-ul {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
 }
 
 footer a:hover {
-    color: #F45B69;
+  color: #F45B69;
 }

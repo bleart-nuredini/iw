@@ -1,8 +1,17 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <title>Testing the Scroller</title>
-    <link rel='stylesheet' type='text/css' href='styles/scroller-style.css'>
+    <meta charset="UTF-8">
+    <title>Slider</title>
+    <link rel='stylesheet' type='text/css' href='styles/slider-style.css'>
+    <link rel="shortcut icon" href="images/favicon.ico">
+
+    <!-- For fonts -->
+    <link src="https://kit.fontawesome.com/a076d05399.js"></link>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link src="https://kit.fontawesome.com/a076d05399.js"></link>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap" rel="stylesheet">
   </head>
   <body>
 
@@ -10,11 +19,10 @@
     <nav>
       <ul class="nav-bar">
         <li><a href="index.html">Home</a></li>
+        <li><a href="slider.html">Slider</a></li>
         <li><a href="about.html">About</a></li>
-        <li><a href="music.html">Music</a></li>
         <li><a href="login.html">Login</a></li>
         <li><a href="register.html">Register</a></li>
-        <li><a href="scroller.html">Scroller</a></li>
       </ul>
     </nav>
 
@@ -35,21 +43,21 @@
       </div>
 
       <div class="scroller">
-        <img id="back-btn" src="images/back-logo.png" width="50px">
-        <img id="next-btn" src="images/next-logo.png" width="50px">
+        <img id="back-btn" src="images/back-logo.png" width="50" alt="Back">
+        <img id="next-btn" src="images/next-logo.png" width="50" alt="Next">
         <div class="scroller-item visible"> 
-          <img src="images/2003KingsOfLeon600-1.jpg">
+          <img src="images/youth-and-young-manhood.jpg" alt="Youth and Young Manhood">
         </div>
         <div class="scroller-item invisible">
-          <img src="images/Only_by_the_Night_Cover.jpg">
+          <img src="images/only-by-the-night.jpg" alt="Only by the Night">
         </div>
         <div class="scroller-item invisible">
-          <img src="images/Comearoundsundown.jpg">
+          <img src="images/come-around-sundown.jpg" alt="Come around the Sundown">
         </div>
       </div>
     </div>
 
-    <div class="footer">
+    <footer>
       <div class="footer-contact">
         <h1 id="footer-name">Kings of Leon</h1>
         <h2>Contact</h2>
@@ -58,25 +66,25 @@
       </div>
       <div class="footer-nav">
         <ul>
-          <li class="footer-item">
+          <li class="footer-nav-item">
             <h2>Media</h2>
-            <ul class="inner-ul-item">
+            <ul class="footer-ul">
               <li><a href="https://www.facebook.com/KingsOfLeon/">Facebook</a></li>
               <li><a href="https://www.instagram.com/kingsofleon/?hl=en">Instagram</a></li>
               <li><a href="https://twitter.com/kingsofleon?lang=en">Twitter</a></li>
             </ul>
           </li>
-          <li class="footer-item">
+          <li class="footer-nav-item">
             <h2>Concerts</h2>
-            <ul class="inner-ul-item">
+            <ul class="footer-ul">
               <li><a href="#">USA</a></li>
               <li><a href="#">Europe</a></li>
               <li><a href="#">Australia</a></li>
             </ul>
           </li>
-          <li class="footer-item">
+          <li class="footer-nav-item">
             <h2>Legal</h2>
-            <ul class="inner-ul-item">
+            <ul class="footer-ul">
               <li><a href="#">Terms of use</a></li>
               <li><a href="#">Privacy</a></li>
               <li><a href="#">Sitemap</a></li>
@@ -84,7 +92,7 @@
           </li>
         </ul>
       </div>
-    </div>
+    </footer>
 
     <!-- Script for the scroller -->
     <script>
