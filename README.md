@@ -1,3 +1,4 @@
+* [Github Repo](https://github.com/bleart-nuredini/iw/)
 * [Shqip](#faza-e-parë-e-projektit-në-iw)
 * [English](#iw-project-part-one)
 
@@ -5,20 +6,20 @@
 Projekti përmbanë gjashtë faqe: **HOME, ABOUT, LOGIN, REGISTER, SLIDER**. Strukurimi
 i faqeve është kryer me **HTML**, slitizimi vetëm me **CSS**, dhe vërtetimi (validimi) i të
 dhënave me disa skripta të shkruar në **JavaScript**. Secila faqe është testuar me [**Markup 
-Validation Service**](#https://validator.W3.org/) për ta testuar validitetin e faqeve. Kurse, 
+Validation Service**](https://validator.W3.org/) për ta testuar validitetin e faqeve. Kurse, 
 për testimin e qasshmërisë së faqeve në platformat mobile e kemi përdorur 
-[**Mobile-Friendly Test**](#https://search.google.com/test/mobile-friendly).
+[**Mobile-Friendly Test**](https://search.google.com/test/mobile-friendly).
 
-Nëse përdoruesi iu qaset faqes përmes pajisjeve më të vogla (p.sh., me telefon), faqet
+Nëse përdoruesi iu qaset faqes përmes pajisjeve më të vogla (p.sh., me telefon), faqeve
 **ABOUT** dhe **SLIDER** iu largohet **footer**-i, duke mundësuar kështu RWD (ang. Responsive Web Design).
 
 Për prezentimin e albumeve e kemi implementuar një element _rrëshqitës_ (ang. slider), i
 cili ndërron e kopertinën dhe përshkrimin e albumit sa herë që të klikohet butoni për albumin
-e radhës (apo butoni për albumin paraprak). Implementimi i këtij elementu funksionin
+e radhës (apo butoni për albumin paraprak). Implementimi i këtij elementi funksionin
 falë një skripte e cila është integruar direkt në `.html` fajllin.
 
 Dy skriptat e tjera, `register-page.js` dhe `login-page.js`, mundësojnë validmin e të
-dhënave për faqen për regjistrin dhe faqen për hyrje, respektivisht. Për validimin e
+dhënave për faqen për regjistrim dhe hyrje. Për validimin e
 adresave elektronike, në `register-page.js` gjendet një _regex_ me të cilin krahasohen
 adresat e futura. 
 

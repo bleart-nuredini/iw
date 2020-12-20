@@ -2,8 +2,6 @@ const registerForm = document.getElementById('register-form');
 const registerButton = document.getElementById('submit-form');  
 const registerErrorMsg = document.getElementById('register-error-msg');
 
-if (isEmailValid('test@mail.com')) alert('it works');
-else alert('nope');
 
 registerButton.addEventListener('click', (e) => {
     e.preventDefault();
@@ -17,8 +15,6 @@ registerButton.addEventListener('click', (e) => {
         alert('You have successfully registered.');
     }
 });
-
-alert('wtf');
 
 // return true if email is valid
 function isEmailValid(email) {
