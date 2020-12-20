@@ -56,44 +56,19 @@ main p {
 	font-size: 125%;
 }
 
-/* Footer */
-footer {
-  display: flex;
-  padding: 40px;
-  border-top: 1px solid white;
-  background-color: black;
-}
+@media (max-width: 576px) {
 
-.footer-contact {
-  color: white;
-  margin-left: 10vw;
-}
+  .nav-bar {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+  }
 
-.footer-button {
-  color: black;
-  background-color: #D0A98F; 
-  border-radius: 100px;
-  height: 35px;
-  padding: 0.5em 1.3em;
-}
+  p {
+    width: 200px;
+  }
 
-.footer-nav ul {
-  display: flex;
-  list-style: none;
-  margin-top: 0;
-  color: wheat;
-}
-
-.footer-nav-item {
-  margin-left: 80px;
-}
-
-.footer-ul {
-  display: flex;
-  flex-direction: column;
-  padding-left: 0;
-}
-
-footer a:hover {
-  color: #F45B69;
+  footer {
+    opacity: 0;
+  }
 }

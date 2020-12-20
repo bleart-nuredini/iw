@@ -39,7 +39,7 @@ nav {
   padding: 45px 100px;
 }
 
-nav ul {
+.nav-bar {
   list-style: none;
 }
 
@@ -169,4 +169,16 @@ footer a:hover {
     display: flex;
     flex-direction: column;
     padding-left: 0;
+}
+
+@media (max-width: 576px) {
+  .nav-bar {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+
+  .body-text div {
+    font-size: 30px
+  }
 }

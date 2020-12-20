@@ -78,3 +78,13 @@ body {
   cursor: pointer;
   outline: none;
 }
+
+@media (max-width: 576px) {
+  #main-container {
+    padding: 10px
+  }
+
+  #username-fld, #email-fld, #password-fld, #submit-form {
+    width: 80%;
+  } 
+}
