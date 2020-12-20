@@ -1,2 +1,21 @@
-# iw
-stuff from UBT's iw course
+* [Shqip](#faza-e-parw-e-projektit-nw-iw)
+* [English](#iw-project-part-one)
+
+## Faza e parw e projektit nw IW
+Faza e parw e projektit nw IW
+ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris interdum lacus vitae sapien cursus feugiat. Suspendisse neque enim, egestas maximus consectetur sit amet, pretium et sapien. Nam malesuada viverra est, porta porttitor massa viverra ut. Pellentesque at odio non risus lobortis dictum. Praesent sed nulla ullamcorper, posuere urna vel, tempus elit. Vivamus ac nulla varius, varius nisl et, lobortis lacus. Cras sit amet turpis rutrum, gravida urna id, pharetra lorem. Curabitur id justo risus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec posuere faucibus nisi in fermentum. Nam massa nibh, semper a nisi a, placerat tincidunt neque. Nam non mauris sed magna porttitor aliquet. Cras lobortis quis turpis vel tristique. Integer metus lorem, vehicula quis pellentesque ut, commodo id felis. In arcu turpis, condimentum et maximus vitae, lacinia at turpis.
+
+Ut nec justo diam. Pellentesque semper magna ac est mattis, vel faucibus tortor efficitur. Nunc molestie, velit quis viverra tempor, tellus nulla faucibus ligula, quis sagittis tortor massa a nibh. Nunc interdum semper sem, ornare tincidunt magna elementum fermentum. Sed a feugiat ligula. Vestibulum sed nisi libero. Maecenas in nibh et quam convallis congue.
+
+In ut lacus sollicitudin massa tristique facilisis in id sem. Aliquam erat volutpat. Morbi varius risus in erat euismod, et placerat quam volutpat. Nullam metus risus, finibus non pretium pulvinar, tempus vel dui. Curabitur fermentum mollis purus sit amet cursus. Nulla facilisi. Integer non magna urna. Aliquam et dui congue augue maximus aliquam. Pellentesque nec dolor a turpis luctus laoreet.
+
+Praesent viverra, arcu quis elementum vestibulum, tellus nulla tincidunt mi, ut consequat diam nibh at ligula. Nullam a neque quis ligula semper fringilla nec vitae leo. Donec nec massa nulla. Nam vel justo placerat, blandit metus id, euismod nulla. Nam tempor euismod magna ac luctus. Morbi in lacus vel mauris porta ullamcorper eleifend vel felis. In massa tortor, fringilla ut dictum vitae, commodo eu velit. Maecenas efficitur blandit accumsan. Duis id volutpat risus, sit amet consectetur quam. Ut porta turpis a nibh gravida interdum.
+
+## IW project part one
+ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris interdum lacus vitae sapien cursus feugiat. Suspendisse neque enim, egestas maximus consectetur sit amet, pretium et sapien. Nam malesuada viverra est, porta porttitor massa viverra ut. Pellentesque at odio non risus lobortis dictum. Praesent sed nulla ullamcorper, posuere urna vel, tempus elit. Vivamus ac nulla varius, varius nisl et, lobortis lacus. Cras sit amet turpis rutrum, gravida urna id, pharetra lorem. Curabitur id justo risus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec posuere faucibus nisi in fermentum. Nam massa nibh, semper a nisi a, placerat tincidunt neque. Nam non mauris sed magna porttitor aliquet. Cras lobortis quis turpis vel tristique. Integer metus lorem, vehicula quis pellentesque ut, commodo id felis. In arcu turpis, condimentum et maximus vitae, lacinia at turpis.
+
+Ut nec justo diam. Pellentesque semper magna ac est mattis, vel faucibus tortor efficitur. Nunc molestie, velit quis viverra tempor, tellus nulla faucibus ligula, quis sagittis tortor massa a nibh. Nunc interdum semper sem, ornare tincidunt magna elementum fermentum. Sed a feugiat ligula. Vestibulum sed nisi libero. Maecenas in nibh et quam convallis congue.
+
+In ut lacus sollicitudin massa tristique facilisis in id sem. Aliquam erat volutpat. Morbi varius risus in erat euismod, et placerat quam volutpat. Nullam metus risus, finibus non pretium pulvinar, tempus vel dui. Curabitur fermentum mollis purus sit amet cursus. Nulla facilisi. Integer non magna urna. Aliquam et dui congue augue maximus aliquam. Pellentesque nec dolor a turpis luctus laoreet.
+
+Praesent viverra, arcu quis elementum vestibulum, tellus nulla tincidunt mi, ut consequat diam nibh at ligula. Nullam a neque quis ligula semper fringilla nec vitae leo. Donec nec massa nulla. Nam vel justo placerat, blandit metus id, euismod nulla. Nam tempor euismod magna ac luctus. Morbi in lacus vel mauris porta ullamcorper eleifend vel felis. In massa tortor, fringilla ut dictum vitae, commodo eu velit. Maecenas efficitur blandit accumsan. Duis id volutpat risus, sit amet consectetur quam. Ut porta turpis a nibh gravida interdum. 
