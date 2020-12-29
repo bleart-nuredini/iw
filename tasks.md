@@ -1,10 +1,10 @@
-### Pjesa e dytw e projektit duhet të përmbajë:
+### Pjesa e dytë e projektit duhet të përmbajë:
 
-1. Webfaqja te kete minimum 5 pages si p.sh: Faqen kryesore (index.php), About us, Products, News, Contact us
+1. Webfaqja te kete minimum 5 pages si p.sh: Faqen kryesore (index.php), About us, Products, Neës, Contact us
 
 2. Te kete login dhe register funksional -> si dhe gjate procesit te logimit te kete role psh admin dhe perdorues i thjeshte.
 
-3. Varesisht faqeve qe keni p.sh News/Portfolio/Products etj te jane teresisht te populluara nga databaza
+3. Varesisht faqeve qe keni p.sh Neës/Portfolio/Products etj te jane teresisht te populluara nga databaza
 
        3.1 Gjate regjistrimit te te dhenave eshte e mundshme te shihet se cili perdorues ka shtuar/modifikuar nje lajm, produkt varesisht llojit te faqes,
 
