@@ -4,8 +4,8 @@
 
 ## Faza e parë e projektit në IW
 Projekti përmbanë gjashtë faqe: **HOME, ABOUT, LOGIN, REGISTER, SLIDER**. Strukurimi
-i faqeve është kryer me **HTML**, slitizimi vetëm me **CSS**, dhe vërtetimi (validimi) i të
-dhënave me disa skripta të shkruar në **JavaScript**. Secila faqe është testuar me [**Markup 
+i faqeve është kryer me HTML, slitizimi vetëm me CSS, dhe vërtetimi (validimi) i të
+dhënave me disa skripta të shkruar në JavaScript. Secila faqe është testuar me [**Markup 
 Validation Service**](https://validator.W3.org/) për ta testuar validitetin e faqeve. Kurse, 
 për testimin e qasshmërisë së faqeve në platformat mobile e kemi përdorur 
 [**Mobile-Friendly Test**](https://search.google.com/test/mobile-friendly).
@@ -25,8 +25,8 @@ adresat e futura.
 
 ## IW project part one
 This project consists of six pages: **HOME, ABOUT, LOGIN, REGISTER, SLIDER**. The web documents 
-have been structured with **HTML**; styled only using **CSS**; and the data validation for the 
-register and login pages has been implemented via two **JavaScript** files. To check for validity, 
+have been structured with HTML; styled only using CSS; and the data validation for the 
+register and login pages has been implemented via two JavaScript files. To check for validity, 
 each web page on the website has been tested with [**Markup Validation Service**] 
 (https://validator.W3.org/). And, to check the website's responsivity, we used
 [**Mobile-Friendly Test**](https://search.google.com/test/mobile-friendly).
