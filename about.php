@@ -16,16 +16,8 @@
   <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap" rel="stylesheet">
 </head>
 <body>
-  <nav>
-    <ul class="nav-bar">
-      <li><a href="index.html">Home</a></li>
-      <li><a href="slider.html">Slider</a></li>
-      <li><a href="about.html">About</a></li>
-      <li><a href="login.html">Login</a></li>
-      <li><a href="register.html">Register</a></li>
-      <li><a href="https://github.com/bleart-nuredini/iw">GitHub</a></li>
-    </ul>
-  </nav>
+  
+  <?php include 'nav.php' ?>
 
   <main>
     <h1 id="about">About</h1>
@@ -50,41 +42,7 @@
     12 Grammy Award nominations, including 4 wins.</p>
   </main>
 
-  <footer>
-    <div class="footer-contact">
-      <h1 id="footer-name">Kings of Leon</h1>
-      <h2>Contact</h2>
-      <address>3123-233-32331</address><br>
-      <a class="footer-button" href="mailto:kingsofleon@gmail.com">Email</a>
-    </div>
-    <div class="footer-nav">
-      <ul>
-        <li class="footer-nav-item">
-          <h2>Media</h2>
-          <ul class="footer-ul">
-            <li><a href="https://www.facebook.com/KingsOfLeon/">Facebook</a></li>
-            <li><a href="https://www.instagram.com/kingsofleon/?hl=en">Instagram</a></li>
-            <li><a href="https://twitter.com/kingsofleon?lang=en">Twitter</a></li>
-          </ul>
-        </li>
-        <li class="footer-nav-item">
-          <h2>Concerts</h2>
-          <ul class="footer-ul">
-            <li><a href="#">USA</a></li>
-            <li><a href="#">Europe</a></li>
-            <li><a href="#">Australia</a></li>
-          </ul>
-        </li>
-        <li class="footer-nav-item">
-          <h2>Legal</h2>
-          <ul class="footer-ul">
-            <li><a href="#">Terms of use</a></li>
-            <li><a href="#">Privacy</a></li>
-            <li><a href="#">Sitemap</a></li>
-          </ul>
-        </li>
-      </ul>
-    </div>
-  </footer>
+  <?php include 'footer.php' ?>
+
 </body>
 </html>

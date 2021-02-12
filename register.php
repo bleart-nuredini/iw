@@ -10,7 +10,7 @@
 </head>
 <body>
   <main id="main-container">
-    <a href="index.html"><img src="images/home-logo.png" width="50" alt="Go back to the main page"></a>
+    <a href="index.php"><img src="images/home-logo.png" width="50" alt="Go back to the main page"></a>
     <h1 id="register-header">Register</h1>
 
     <div id="register-error-msg-container">

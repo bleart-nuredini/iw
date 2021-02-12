@@ -17,9 +17,9 @@
 <ul class="nav-links">
     <nav>
         <ul class="nav-bar">
-<li><a href="index.html">home</a></li>
-<li><a href="about.html">About</a></li>
-<li><a href="music.html">Music</a></li>
+<li><a href="index.php">home</a></li>
+<li><a href="about.php">About</a></li>
+<li><a href="music.php">Music</a></li>
 <li><a href="#">Menu</a></li>
 </ul>
 </nav>
@@ -81,12 +81,6 @@
           <div class="text2"><b><a href="https://open.spotify.com/album/2137zeBGNgOWP4D96q6qxd" target="_blank">Spotify</a></b><br> <b><a href="https://music.apple.com/us/album/youth-and-young-manhood/1435820262" target="_blank">Imusic</a></b><br></div>
 
       </div></div>
-    </div>
-    
-    
-    
-   
-    
-    </body>
-    </html>
-    
+    </div>   
+</body>
+</html>
