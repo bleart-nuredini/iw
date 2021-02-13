@@ -7,13 +7,9 @@
   <link rel="shortcut icon" href="images/favicon.ico">
   <link rel="stylesheet" href="styles/style.css"/>
   <!-- For fonts -->
-  <link src="https://kit.fontawesome.com/a076d05399.js"></link>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-  <link src="https://kit.fontawesome.com/a076d05399.js"></link>
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap" rel="stylesheet">
+  <?php include 'components/fonts.php' ?>
 </head>
-<body>
+<body style="background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6) ), url('images/bg-img1.png');">
 
   <?php include 'components/nav.php' ?>
 
