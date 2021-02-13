@@ -17,7 +17,7 @@
   </head>
   <body>
 
-    <?php include 'nav.php' ?>
+    <?php include 'components/nav.php' ?>
 
     <div class="main">
       <div class="album-description">
@@ -50,7 +50,7 @@
       </div>
     </div>
 
-    <?php include 'footer.php' ?>
+    <?php include 'components/footer.php' ?>
 
     <!-- Script for the scroller -->
     <script>

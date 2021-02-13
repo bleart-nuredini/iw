@@ -15,7 +15,7 @@
 </head>
 <body>
 
-  <?php include 'nav.php' ?>
+  <?php include 'components/nav.php' ?>
 
   <!-- Main title -->
   <div class="body-text">
