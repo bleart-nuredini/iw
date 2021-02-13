@@ -17,7 +17,7 @@
 </head>
 <body>
   
-  <?php include 'nav.php' ?>
+  <?php include 'components/nav.php' ?>
 
   <main>
     <h1 id="about">About</h1>
@@ -42,7 +42,7 @@
     12 Grammy Award nominations, including 4 wins.</p>
   </main>
 
-  <?php include 'footer.php' ?>
+  <?php include 'components/footer.php' ?>
 
 </body>
 </html>
