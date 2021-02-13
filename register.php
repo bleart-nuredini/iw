@@ -17,11 +17,11 @@
       <p id="register-error-msg">Sorry, you entered an invalid username or passowrd.</p>
     </div>
 
-    <form id="register-form">
+    <form action="register_auth.php" method="POST" id="register-form">
       <input type="text" name="username" id="username-fld" class="register-fld" placeholder="username">
       <input type="email" name="email" id="email-fld" class="register-fld" placeholder="e-mail address">
       <input type="password" name="password" id="password-fld" class="register-fld" placeholder="password">
-      <input type="submit" value="register" id="submit-form">
+      <input type="submit" name="register" value="register" id="register-btn">
     </form>
   </main>
 </body>
