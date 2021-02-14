@@ -11,16 +11,21 @@
 <head>
 <body>
   <?php 
-    include_once './components/nav.php';
-    require_once './login_data.php';
+    require_once 'login_data.php';
+    include_once 'components/nav.php';
 
     $conn = new mysqli($hn, $un, $pw, $db);
     if ($conn->connect_error) die("Fatal error");
     $res = $conn->query("SELECT * FROM article");
     if (!$res) die("Database could not be accessed");
 
-    echo "<div class='article-wrapper'>";
 
+    echo "<div class='article-wrapper'>
+           <div class='article-summary'>
+             <a href='articles/add_article.php'>
+               <img id='plus-btn' src='images/plus-btn.png' height='50'>
+             </a>
+           </div>";
     for ($i = 0; $i < $res->num_rows; $i++) {
       $article = $res->fetch_array(MYSQLI_ASSOC);
       $id      = $article['article_id'];
@@ -29,7 +34,7 @@
 
       echo "<div class='article-summary'>";
       echo "<a href='articles/$id.php'><h3>$title</h3>";
-      echo "<p>$summary</h3>";
+      echo "<p>$summary</p></h3></a>";
       echo "</div>";
     }
 
