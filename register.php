@@ -4,9 +4,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
   <link rel="shortcut icon" href="images/favicon.ico">
-  <title>Kings of Leon - Register</title>
+  <title>Register</title>
   <link rel="stylesheet" type="text/css" href="styles/register-style.css">
-  <script defer src="js/register-page.js"></script>
+  <script defer src="js/register-auth.js"></script>
 </head>
 <body>
   <main id="main-container">
@@ -17,7 +17,7 @@
       <p id="register-error-msg">Sorry, you entered an invalid username or passowrd.</p>
     </div>
 
-    <form action="register_auth.php" method="POST" id="register-form">
+    <form action="register.php" method="POST" id="register-form">
       <input type="text" name="username" id="username-fld" class="register-fld" placeholder="username">
       <input type="email" name="email" id="email-fld" class="register-fld" placeholder="e-mail address">
       <input type="password" name="password" id="password-fld" class="register-fld" placeholder="password">
