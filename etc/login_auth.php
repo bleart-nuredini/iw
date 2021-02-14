@@ -13,12 +13,18 @@
       isset($_POST['login'])) {
     $un    = htmlspecialchars($_POST['username']);
     $pw    = htmlspecialchars($_POST['email']); 
-
+        echo "<script>
+                const loginErrorMsg = document.getElementById('login-error-msg');
+                loginErrorMsg.style.opacity = 1;
+              </script>";
     for ($i = 0; $i < $res->num_rows; $i++) {
       $row = $res->fetch_array(MYSQLI_NUM);
 
+
+
       if (isInDB($row)) {
         header("Location:index.php");
+      } else {
       }
     }
   }

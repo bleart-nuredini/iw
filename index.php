@@ -11,7 +11,7 @@
 </head>
 <body style="background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6) ), url('images/bg-img1.png');">
 
-  <?php include 'components/nav.php' ?>
+  <?php include 'components/nav.php'; ?>
 
   <!-- Main title -->
   <div class="body-text">

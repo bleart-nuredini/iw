@@ -1,11 +1,11 @@
-*{
+* {
   margin: 0;
   padding: 0;
   font-family: 'Cinzel', serif;
 }
 
-body{
-    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6) ), url('../images/bg-img1.png');
+body {
+  background: black;
 }
 
 /* Body Text */
@@ -26,10 +26,30 @@ body{
   color: #fcfcfc;
 }
 
+.container {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 10%;
+  color: white;
+}
+
+/* Dashboard */
+.user-table {
+}
+
+.user-table p {
+  font-family: Arial;
+}
+
+.user-table td {
+  border: 1px solid white;
+  padding: 10px;
+}
 
 /* Navigation Bar */ 
 a {
   text-decoration: none;
+  color: white;
 }
 
 nav {
@@ -123,52 +143,101 @@ nav {
 
 /* Footer */
 footer {
-    display: flex;
-    padding: 10px;
-    border-top: 1px solid white;
-    background-color: black;
-}
-
-footer a {
-    color: white;
-}
-
-footer a:hover {
-    color: #F45B69;
+  display: flex;
+  padding: 40px;
+  border-top: 1px solid white;
+  background-color: black;
 }
 
 .footer-contact {
-    color: white;
-    margin-left: 10vw;
-}
-
-#footer-name {
-    font-family: Trebuchet;
+  color: white;
+  margin-left: 10vw;
 }
 
 .footer-button {
-    color: black;
-    background-color: #D0A98F; 
-    border-radius: 100px;
-    height: 35px;
-    padding: 0.5em 1.3em;
+  color: black;
+  background-color: #D0A98F; 
+  border-radius: 100px;
+  height: 35px;
+  padding: 0.5em 1.3em;
 }
 
 .footer-nav ul {
-    display: flex;
-    list-style: none;
-    margin-top: 0;
-    color: wheat;
+  display: flex;
+  list-style: none;
+  margin-top: 0;
+  color: wheat;
 }
 
-.footer-item {
-    margin-left: 80px;
+.footer-nav-item {
+  margin-left: 80px;
 }
 
 .footer-ul {
-    display: flex;
-    flex-direction: column;
-    padding-left: 0;
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+}
+
+footer a:hover {
+  color: #F45B69;
+}
+
+/* Articles page */
+.article-wrapper {
+  margin: auto;
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.article-summary {
+  width: 25%;
+  padding: 10px;
+  margin: 20px;
+}
+
+.article-summary h3 {
+  color: white;
+}
+
+.article-summary p {
+  color: grey;
+}
+
+.article p:hover {
+  color: white;
+}
+
+img#plus-btn {
+  margin-left: 35%;
+  margin-top: 5%;
+}
+
+/* Articles*/
+.article-container {
+  margin: auto;
+  width: 75%;
+}
+
+.article-container h2 {
+  color: white;
+}
+
+.article-container p {
+  color: white;
+  font-family: Geneva;
+  font-size: 18px;
+}
+
+.article-info {
+  color: grey;
+  margin: 10px;
+}
+
+/* Article insertion */
+#article-form input, textarea {
+  margin: 10px;
 }
 
 @media (max-width: 576px) {
