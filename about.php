@@ -5,8 +5,44 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>About</title>
   <link rel="shortcut icon" href="images/favicon.ico">
-  <link rel="stylesheet" type="text/css" href="styles/about-style.css"/>
-  <link rel="stylesheet" type="text/css" href="styles/footer.css"/>
+  <link rel="stylesheet" type="text/css" href="styles/style.css"/>
+  <style>
+    body {
+      margin: 0 0;
+      background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6) ), url('images/bg-img2.jpg');
+      background-color: black;
+    }
+
+    main {
+      margin: 10vw 25vw;
+      color: white;
+    }
+
+    main h1 {
+      font-size: 250%;    
+    }
+
+    main p {
+      font-size: 125%;
+    }
+
+    @media (max-width: 576px) {
+      .nav-bar {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+      }
+
+      p {
+        width: 200px;
+        size: 10px;
+      }
+
+      footer {
+        opacity: 0;
+      }
+    }
+  </style>
 
   <!-- For fonts -->
   <?php include 'components/fonts.php' ?>
