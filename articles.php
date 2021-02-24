@@ -11,15 +11,17 @@
 <head>
 <body>
   <?php 
-    require_once 'login_data.php';
+    require_once 'etc/login_data.php';
     include_once 'components/nav.php';
+    include_once 'classes/user.php';
 
-    $conn = new mysqli($hn, $un, $pw, $db);
-    if ($conn->connect_error) die("Fatal error");
-    $res = $conn->query("SELECT * FROM article");
-    if (!$res) die("Database could not be accessed");
+    session_start();
 
+    // create database connection and execute query
+    $u = new User();
+    $res = $u->exec_query("SELECT * FROM article");
 
+    // output result
     echo "<div class='article-wrapper'>
            <div class='article-summary'>
              <a href='articles/add_article.php'>
@@ -37,7 +39,6 @@
       echo "<p>$summary</p></h3></a>";
       echo "</div>";
     }
-
     echo "</div>";
 
     include_once './components/footer.php';
