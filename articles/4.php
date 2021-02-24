@@ -1,5 +1,5 @@
 <?php
-  require_once '../login_data.php';
+  require_once '../etc/login_data.php';
 
   // connect to database
   $conn = new mysqli($hn, $un, $pw, $db);
