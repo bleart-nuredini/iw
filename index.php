@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title> Kings of Leon</title>
+  <title>KOF</title>
   <link rel="shortcut icon" href="images/favicon.ico">
   <link rel="stylesheet" href="styles/style.css"/>
   <!-- For fonts -->
@@ -15,7 +15,7 @@
 
   <!-- Main title -->
   <div class="body-text">
-    <div class="title">Kings Of Leon</div>
+    <div class="title">KOF</div>
     <div class="sub-title">Get To Know The Music</div>
   </div>
 
