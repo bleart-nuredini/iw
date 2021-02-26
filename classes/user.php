@@ -68,5 +68,35 @@
     public function fix_string($str) {
       return $this->conn->real_escape_string($str);
     }
+
+    public function get_num_of_users() {
+      $q = "SELECT * FROM user";
+      $res = $this->conn->query($q);
+
+      return $res->num_rows;
+    }
+
+    public function get_num_of_admins() {
+      $q = "SELECT * FROM user WHERE role='admin'";
+      $res = $this->conn->query($q);
+
+      return $res->num_rows;
+    }
+
+    public function get_num_of_articles() {
+      $q = "SELECT * FROM article";
+      $res = $this->conn->query($q);
+
+      return $res->num_rows;
+    }
+
+    public function get_author($user_id) {
+      $q = "SELECT username FROM user WHERE user_id = $user_id";
+      $result = $this->conn->query($q);
+      if (!$result) die("Could not access database");
+      $row = $result->fetch_array(MYSQLI_ASSOC);
+
+      return $row["username"];
+    }
   }
 ?>

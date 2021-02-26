@@ -9,17 +9,16 @@ body {
   display: grid;
   justify-items: center;
   align-items: center;
+  color:rgb(212, 212, 212);
   background-color: black;
+  /* background: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9) ), url('../images/bg-img6.jpg'); */
 }
 
 #main-container {
   width: 40%;
-  height: 60%;
+  height: 50%;
   display: grid;
   justify-items: center;
-  align-items: center;
-  background-color: white;
-  box-shadow: 0px 0px 2px 5px black;
 }
 
 #main-container img {
@@ -59,24 +58,49 @@ body {
 }
 
 .register-fld {
-  border: none;
-  border-bottom: 1px solid #3a3a3a;
   margin-bottom: 10px;
-  border-radius: 3px;
+  border: 1px solid #c0c5ce;
+  color: #c0c5ce;
+  background-color: black;
+  border-radius: 10px;
   outline: none;
-  padding: 0px 0px 5px 5px;
+  padding: 10px;
 }
 
-#submit-form {
+#register-btn {
   width: 100%;
   padding: 7px;
   border: none;
-  border-radius: 5px;
+  border-radius: 2px;
   color: white;
   font-weight: bold;
-  background-color: #3a3a3a;
+  background-color: #343d46;
   cursor: pointer;
-  outline: none;
+}
+
+#register-btn:hover {
+  background-color:#a7adba;
+}
+
+#register-form label {
+  margin: 5px;
+}
+
+#register-form select {
+  margin-bottom: 10px;
+  background-color: black;
+  border: 1px solid white;
+  color: white;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+#register-form option {
+  background-color: black;
+  border: 1px solid #c0c5ce;
+  color: white;
+  padding: 5px;
+  border-radius: 10px;
 }
 
 @media (max-width: 576px) {
@@ -84,7 +108,7 @@ body {
     padding: 10px
   }
 
-  #username-fld, #email-fld, #password-fld, #submit-form {
+  #username-fld, #email-fld, #password-fld, #register-btn {
     width: 80%;
   } 
 }

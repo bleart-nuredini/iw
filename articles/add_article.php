@@ -1,5 +1,5 @@
 <?php
-  require_once '../login_data.php';
+  require_once '../etc/login_data.php';
   
   $conn = new mysqli($hn, $un, $pw, $db);
   if ($conn->connect_error) die("Fatal error");
@@ -22,7 +22,17 @@
     $q = "INSERT INTO article VALUES
           (NULL, '$title', '$content',$user_id,'$keywords','$date','$summary')";
     $res = $conn->query($q);
+    $article_id = $conn->insert_id;
     if (!$res) die("Database could not be accessed");
+
+    $tpl = file_get_contents("article_tpl.php");
+    $new_article = str_replace("{article_id}", $article_id, $tpl);
+    $new_article_name = $article_id.".php";
+    
+    $fp = fopen($new_article_name, "w");
+    fwrite($fp, $new_article);
+    fclose($fp);
+
     header("Location:../articles.php");
   }
 ?>

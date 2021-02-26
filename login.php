@@ -1,3 +1,7 @@
+<?php
+  session_start();
+  if (isset($_SESSION['ui'])) header("Location:index.php");
+?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -11,11 +15,17 @@
 <body>
   <main id="main-container">
     <a href="index.php"><img src="images/home-logo.png" alt="Go back to the main page"></a>
-    <h1 id="login-header">Login</h1>
-
-    <div id="login-error-msg-container">
-      <p id="login-error-msg">Sorry, you entered an invalid username or passowrd.</p>
-    </div>
+    
+    <?php
+      if ($_SESSION['login_error_message']) {
+    ?>
+        <div id="login-error-msg-container">
+          <p id="login-error-msg">Sorry, your username/password is not correct.</p>
+        </div>
+    <?php    
+        unset($_SESSION['login_error_message']);
+      }
+    ?>
 
     <form action="login_auth.php" method="POST" id="login-form">
       <input type="text" name="username" id="username-fld" class="login-fld" placeholder="username">
@@ -23,6 +33,5 @@
       <input type="submit" name="login" value="login" id="form-submit">
     </form>
   </main>
-  <script defer src="js/login-auth.js"></script>
 </body>
 </html>

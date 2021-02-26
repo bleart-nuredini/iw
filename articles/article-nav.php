@@ -31,7 +31,7 @@
     <li><a href="../articles.php">Articles</a></li>
     <li><a href="../https://github.com/bleart-nuredini/iw">GitHub</a></li>
     <li><a href="../login.php">   <?php echo $login_msg    ?></a></li>
-    <li><a href="../register.php"><?php echo $register_msg ?></a></li>
+    <li><a href="../register.html"><?php echo $register_msg ?></a></li>
   </ul>
   <ul class="nav-side">
     <li>

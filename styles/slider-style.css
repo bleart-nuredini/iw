@@ -25,12 +25,12 @@ a {
 
 nav {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   padding: 45px 100px;
 }
 
-nav ul {
+.nav-bar {
   list-style: none;
 }
 
@@ -41,12 +41,47 @@ nav ul {
 }
 
 .nav-bar li a {
-transition: all .3s ease 0s;
-color: white;
+  transition: all .3s ease 0s;
+  color: white;
+  text-align: center;
 }
 
 .nav-bar li a:hover {
-color: #006C87;
+  color: #006C87;
+}
+
+.nav-side {
+  display: flex;
+}
+
+.nav-side span {
+  margin-top: 17px;
+  margin-right: 5px;
+}
+
+#user-dropdown-content {
+  display: none;
+  list-style: none;
+  position: absolute;
+  background-color: rgb(24, 24, 24);
+  min-width: 100px;
+  padding: 12px 16px;
+  border-radius: 5px;
+  z-index: 1;
+  color: white;
+}
+
+#user-dropdown:hover #user-dropdown-content {
+  display: block;
+  cursor: pointer;
+}
+
+#user-dropdown-content a{
+  width: 100%;
+}
+
+#user-dropdown-content a:hover {
+  color: #006C87;
 }
 
 .btn-area {
@@ -97,6 +132,49 @@ background: #006C87;
 .album-title {
   border-bottom: 1px solid white;
   margin-bottom: 10px;
+}
+
+
+/* Footer */
+footer {
+  display: flex;
+  padding: 40px;
+  border-top: 1px solid white;
+  background-color: black;
+}
+
+.footer-contact {
+  color: white;
+  margin-left: 10vw;
+}
+
+.footer-button {
+  color: black;
+  background-color: #D0A98F; 
+  border-radius: 100px;
+  height: 35px;
+  padding: 0.5em 1.3em;
+}
+
+.footer-nav ul {
+  display: flex;
+  list-style: none;
+  margin-top: 0;
+  color: wheat;
+}
+
+.footer-nav-item {
+  margin-left: 80px;
+}
+
+.footer-ul {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+}
+
+footer a:hover {
+  color: #F45B69;
 }
 
 @media (max-width: 576px) {

@@ -9,17 +9,16 @@ body {
   display: grid;
   justify-items: center;
   align-items: center;
+  color:rgb(212, 212, 212);
   background-color: black;
+  /* background: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9) ), url('../images/bg-img5.jpg'); */
 }
 
 #main-container {
   width: 40%;
-  height: 60%;
+  height: 45%;
   display: grid;
   justify-items: center;
-  align-items: center;
-  background-color: white;
-  box-shadow: 0px 0px 2px 5px black;
 }
 
 #main-container img {
@@ -44,7 +43,7 @@ body {
   color: #8a0000;
   border: 1px solid #8a0000;
   background-color: red;
-  opacity: 0;
+  opacity: 1;
 }
 
 #login-form {
@@ -59,24 +58,28 @@ body {
 }
 
 .login-fld {
-  border: none;
-  border-bottom: 1px solid #3a3a3a;
   margin-bottom: 10px;
-  border-radius: 3px;
+  border: 1px solid #c0c5ce;
+  color: #c0c5ce;
+  background-color: black;
+  border-radius: 10px;
   outline: none;
-  padding: 0px 0px 5px 5px;
+  padding: 10px;
 }
 
 #form-submit {
   width: 100%;
   padding: 7px;
   border: none;
-  border-radius: 5px;
+  border-radius: 2px;
   color: white;
   font-weight: bold;
-  background-color: #3a3a3a;
+  background-color: #343d46;
   cursor: pointer;
-  outline: none;
+}
+
+#form-submit:hover {
+  background-color: #a7adba;
 }
 
 @media (max-width: 576px) {
