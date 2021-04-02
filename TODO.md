@@ -1,8 +1,9 @@
 ## IW -- To do list
 
-* Clean up directory structure
 * Allow for image uploads
-* Make navbar responsive
+* Add column for user modification and deletion in the dashboard
 * Style dashboard page
+* Clean up directory structure
+* Make navbar responsive
 * Remove frameworks
 * Change fonts
