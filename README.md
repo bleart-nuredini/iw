@@ -27,8 +27,7 @@ adresat e futura.
 This project consists of six pages: **HOME, ABOUT, LOGIN, REGISTER, SLIDER**. The web documents 
 have been structured with HTML; styled only using CSS; and the data validation for the 
 register and login pages has been implemented via two JavaScript files. To check for validity, 
-each web page on the website has been tested with [**Markup Validation Service**] 
-(https://validator.W3.org/). And, to check the website's responsivity, we used
+each web page on the website has been tested with [**Markup Validation Service**](https://validator.W3.org/). And, to check the website's responsivity, we used
 [**Mobile-Friendly Test**](https://search.google.com/test/mobile-friendly).
 
 If the user accesses the website via smaller devices (e.g., a phone), the footer in **ABOUT** and **SLIDER** will 
