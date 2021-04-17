@@ -34,11 +34,13 @@ body {
   color: white;
 }
 
+.display-none {
+  display: none;
+}
+
 
 /* Dashboard */
 .table-container {
-  display: flex;
-  flex-wrap: wrap;
   color: white;
   width: 80%;
   margin: auto;
@@ -48,30 +50,22 @@ body {
 .user-table {
   border-collapse: collapse;
   margin: auto;
-  border-radius: 5px;
-  background-color: rgb(19, 19, 19);
 }
 
-.user-table p {
-  font-family: Arial;
+.user-table td,
+.info-table td {
+  border: .5px solid rgb(200,200,200);
+  padding: .7rem;
 }
 
-.user-table td {
-  border: 1px solid rgb(200,200,200);
-  padding: 10px;
+.info-table {
+  margin-top: 8rem;
 }
 
-.info-table td, th {
-  padding: 20px;
+.info-table th {
+  padding: .7rem;
 }
 
-#graph {
-  width: 400px;
-  height: 300px;
-  border-radius: 5px;
-  margin: 30px 10px;
-
-}
 
 /* Navigation Bar */ 
 a {
@@ -289,8 +283,20 @@ img#plus-btn {
 
 /* Articles (individual) */
 .article-container {
-  margin: auto;
   width: 75%;
+  min-height: 85vh;
+  margin: auto;
+}
+
+.article-container__title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.article-container__trash-icon {
+  height: 1.2rem;
+  padding: 0.5rem;
 }
 
 .article-container h2 {

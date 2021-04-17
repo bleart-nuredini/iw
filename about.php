@@ -43,9 +43,6 @@
       }
     }
   </style>
-
-  <!-- For fonts -->
-  <?php include 'components/fonts.php' ?>
 </head>
 <body>
   

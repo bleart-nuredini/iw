@@ -6,9 +6,6 @@
     <title>Scroller</title>
     <link rel="stylesheet" type="text/css" href="styles/slider-style.css">
     <link rel="shortcut icon" href="images/favicon.ico">
-
-    <!-- For fonts -->
-    <?php include 'components/fonts.php' ?>
   </head>
   <body>
     <?php include 'components/nav.php' ?>
