@@ -1,11 +1,5 @@
 ## IW -- To do list
-
-* Style dashboard page
-* Allow for image uploads
 * Clean up directory structure
-* Make navbar responsive
-* Remove frameworks
-* Change fonts
 * Fix root user problems
 
 ## IW -- Done list
@@ -13,4 +7,10 @@
     - Try using GET
 * Implement article deletion
 * Fix logout button in `add_article.php` 
+* Style dashboard page
 * Add column for user modification and deletion in the dashboard
+* Remove frameworks
+* Change fonts
+* Make navbar responsive
+* Fix navbar in `dashboard.php`
+* Allow for image uploads
