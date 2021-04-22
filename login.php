@@ -13,8 +13,8 @@
   <link rel="stylesheet" type="text/css" href="styles/login-style.css">
 </head>
 <body>
-  <main id="main-container">
-    <a href="index.php"><img src="images/home-logo.png" alt="Go back to the main page"></a>
+  <main id="container">
+    <a href="index.php"><img src="images/home-logo.png" alt="Go back to the main page" class="home-icon"></a>
     
     <?php
       if ($_SESSION['login_error_message']) {
