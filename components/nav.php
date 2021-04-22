@@ -38,7 +38,7 @@ if (isset($username) && isset($role) && $role == 'admin') {
 <nav>
   <ul class="nav-bar">
     <li><a href="<?php echo $root . '/index.php'; ?>">Home</a></li>
-    <li><a href="<?php echo $root . '/scroller.php'; ?>">Scroller</a></li>
+    <li><a href="<?php echo $root . '/slider.php'; ?>">Slider</a></li>
     <li><a href="<?php echo $root . '/about.php'; ?>">About</a></li>
     <li><a href="<?php echo $root . '/articles.php'; ?>">Articles</a></li>
     <li><a href="https://github.com/bleart-nuredini/iw">GitHub</a></li>
@@ -46,7 +46,7 @@ if (isset($username) && isset($role) && $role == 'admin') {
     <li><a href="<?php echo $root . '/register.html'; ?>"> <?php echo $register_msg  ?></a></li>
   </ul>
   <div class="nav-side">
-    <span style="color: white;"><?php echo "$greeting" ?></span>
+    <span id="nav-greeting"><?php echo "$greeting" ?></span>
 
   <?php if (isset($username)) { ?>
     <div id="user-dropdown">
