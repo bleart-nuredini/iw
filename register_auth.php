@@ -21,6 +21,4 @@
   
   // send the user to the login page to use the newly created account
   header("Location:login.php");
-  $res->close();
-  $conn->close();
 ?>
