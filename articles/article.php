@@ -19,6 +19,7 @@ $author  = $u->get_author($article['user_id']);
 <head>
   <title><?php echo $title ?></title>
   <link rel="stylesheet" type="text/css" href="../styles/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
   <?php include_once '../components/nav.php'; ?>
@@ -32,11 +33,16 @@ $author  = $u->get_author($article['user_id']);
         </a>
       <?php } ?>
     </div>
+
     <div class="article-info">
       <h4><?php echo $date   ?></h4>
       <h4><?php echo $author ?></h4>
     </div>
     <p style='color:white;'><?php echo $content ?></p>;
+
+    <div class="article-container__image">
+      <img src="uploads/article-img<?php echo $id; ?>.jpg" alt="article image">
+    </div>
   </div>
 
   <?php include_once '../components/footer.php'; ?>
