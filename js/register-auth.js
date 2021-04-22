@@ -21,16 +21,6 @@ registerButton.addEventListener('click', (e) => {
     }
 });
 
-// returns true if email is valid
-function isEmailValid(email) {
-    var regex = /[^@ \t\r\n]+@[^@ \t\r\n]+\.[^@ \t\r\n]+/;
-    if (email.match(regex)) return true; 
-
-    // alert("Please enter a valid e-mail address.");
-    document.getElementById('email-fld').focus();
-    return false;
-}
-
 function checkPassword(p) {
     if (p.length >= 8) return true;
     else               return false;  
@@ -39,4 +29,14 @@ function checkPassword(p) {
 function checkUsername(u) {
     if (u.match(/[a-zA-Z]/)) return true;
     else                     return false;
+}
+
+// returns true if email is valid
+function isEmailValid(email) {
+    var regex = /[^@ \t\r\n]+@[^@ \t\r\n]+\.[^@ \t\r\n]+/;
+    if (email.match(regex)) return true; 
+
+    // alert("Please enter a valid e-mail address.");
+    document.getElementById('email-fld').focus();
+    return false;
 }
