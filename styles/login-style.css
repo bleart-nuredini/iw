@@ -14,14 +14,14 @@ body {
   /* background: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9) ), url('../images/bg-img5.jpg'); */
 }
 
-#main-container {
+#container {
   width: 40%;
   height: 45%;
   display: grid;
   justify-items: center;
 }
 
-#main-container img {
+#container img {
   width: 50px;
 }
 
@@ -40,9 +40,10 @@ body {
   padding: 5px;
   font-size: 12px;
   font-weight: bold;
-  color: #8a0000;
-  border: 1px solid #8a0000;
-  background-color: red;
+  color: #921515;
+  background-color: #ffe3e3;
+  border: 1px solid #fcbdbd;
+  border-radius: 1rem;
   opacity: 1;
 }
 
@@ -82,12 +83,20 @@ body {
   background-color: #a7adba;
 }
 
+#home-icon {
+  width: 3rem;
+}
+
 @media (max-width: 576px) {
-  #main-container {
+  #container {
     padding: 10px;
+  }
+
+  #login-error-msg {
+    width: 100%;
   }
   
   #username-fld, #password-fld {
-    width: 80%;
+    width: 88%;
   }
 }

@@ -1,13 +1,12 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Cinzel', serif;
+  font-family: serif;
 }
 
 body {
   background: black;
 }
-
 
 /* Body Text */
 .body-text {
@@ -15,7 +14,7 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 100%;
+  width: 80%;
   text-align: center;
   padding: 0 30px;
   color: #f3ecec;
@@ -60,6 +59,7 @@ body {
 
 .info-table {
   margin-top: 8rem;
+  margin-bottom: 8rem;
 }
 
 .info-table th {
@@ -104,9 +104,10 @@ nav {
   display: flex;
 }
 
-.nav-side span {
+#nav-greeting {
   margin-top: 17px;
   margin-right: 5px;
+  color: white;
 }
 
 #user-dropdown-content {
@@ -280,12 +281,31 @@ img#plus-btn {
   margin-top: 5%;
 }
 
+#submit-fld {
+  padding: .8rem;
+  font-size: 1.2re1;
+  color: white;
+  background-color: black;
+  border: .1rem solid white;
+  border-radius: 1rem;
+}
+
+#submit-fld:hover {
+  background-color: grey;
+}
+
 
 /* Articles (individual) */
 .article-container {
   width: 75%;
   min-height: 85vh;
   margin: auto;
+}
+
+.article-container__image {
+  display: flex;
+  justify-content: center;
+  padding: 4rem;
 }
 
 .article-container__title {
@@ -319,6 +339,24 @@ img#plus-btn {
   margin: 10px;
 }
 
+
+/* About page */
+.about {
+  min-height: 90vh;
+  width: 70%;
+  margin: auto;
+  color:  white;
+}
+
+.about__title {
+  font-size: 250%;    
+}
+
+.about__text {
+  font-size: 125%;
+}
+
+
 @media (max-width: 576px) {
   .nav-bar {
     display: flex;
@@ -330,12 +368,12 @@ img#plus-btn {
     flex-wrap: wrap;
   }
 
-  .body-text div {
-    font-size: 30px
+  #nav-greeting {
+    display: none;
   }
 
-  p {
-    width: 200px;
+  .body-text div {
+    font-size: 30px
   }
 
   .article-summary {
@@ -346,7 +384,30 @@ img#plus-btn {
     width: 60vw;
   }
 
-  footer {
-    opacity: 0;
+  .footer-nav {
+    display: none;
+  }
+
+  .table-container {
+    font-size: .7rem;
+    width: initial;
+  }
+
+  .article-container__trash-icon {
+    height: .8rem;
+  }
+
+  .info-table {
+    margin-top: 3rem;
+  }
+
+  .user-table td,
+  .info-table td {
+    padding: .5rem;
+  }
+
+  #article-form input, 
+  textarea {
+    width: 90%;
   }
 }

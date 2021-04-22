@@ -14,14 +14,14 @@ body {
   /* background: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9) ), url('../images/bg-img6.jpg'); */
 }
 
-#main-container {
+#container {
   width: 40%;
   height: 50%;
   display: grid;
   justify-items: center;
 }
 
-#main-container img {
+#container img {
   width: 50px;
 }
 
@@ -40,9 +40,10 @@ body {
   padding: 5px;
   font-size: 12px;
   font-weight: bold;
-  color: #8a0000;
-  border: 1px solid #8a0000;
-  background-color: red;
+  color: #921515;
+  background-color: #ffe3e3;
+  border: 1px solid #fcbdbd;
+  border-radius: 1rem;
   opacity: 0;
 }
 
@@ -104,11 +105,15 @@ body {
 }
 
 @media (max-width: 576px) {
-  #main-container {
+  #container {
     padding: 10px
   }
 
+  #register-error-msg {
+    width: 100%;
+  }
+
   #username-fld, #email-fld, #password-fld, #register-btn {
-    width: 80%;
+    width: 88%;
   } 
 }
