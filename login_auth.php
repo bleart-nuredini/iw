@@ -12,7 +12,7 @@
     $un = $_POST['username'];
     $pw = $_POST['password'];
 
-    // if login valdiation fails set the error mesage
+    // if login valdiation fails, set the error message
     if (!$u->validate_login($un, $pw)) {
       $_SESSION['login_error_message'] = 1;
       header("Location:login.php");
